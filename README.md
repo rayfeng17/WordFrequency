@@ -1,1 +1,1 @@
-# Word-Frequency-
+The following code reads the input from a file and stores the words to be compared and counted to present us the word frequency list of the file. This is done with the use of hash maps. It stores data in (key, value) pairs. The word frequency is displayed in lower case. 
