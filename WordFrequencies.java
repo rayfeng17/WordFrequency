@@ -42,10 +42,7 @@ class WordFrequencies {
                     }
                 }
             }
-            // redirects the output to a txt file
-            PrintStream op = new PrintStream(new FileOutputStream("output.txt"));
-            System.setOut(op);
-            
+               
             // print contents
             for (HashMap.Entry<String, Integer> entry : frequency.entrySet()) {
                 System.out.println(entry.getValue() + " : " + entry.getKey());
